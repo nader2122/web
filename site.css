@@ -1,0 +1,590 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+
+header{
+    position:relative;
+
+    width:100%;
+    height: 100px;
+    background-color:yellow;
+}
+
+#logo{
+    
+    width: 40%;
+    height: 100px;
+    
+}
+
+#logo img{
+    position: relative;
+    float:right;
+    width: 10%;
+    height: 100px;
+    border-radius: 50%;
+}
+#fan{
+    margin-right: 20px;
+    float: right;
+    text-align: center;
+      line-height: 50px;
+  
+}
+#logo img{
+    animation-name:swing-left-fwd ;
+    animation-duration:10s ;
+    animation-delay:1s ;
+    animation-iteration-count:infinite;
+   }
+
+   @-webkit-keyframes swing-left-fwd{0%{-webkit-transform:rotateY(0);transform:rotateY(0);-webkit-transform-origin:left bottom;transform-origin:left bottom}100%{-webkit-transform:rotateY(-180deg);transform:rotateY(-180deg);-webkit-transform-origin:left bottom;transform-origin:left bottom}}@keyframes swing-left-fwd{0%{-webkit-transform:rotateY(0);transform:rotateY(0);-webkit-transform-origin:left bottom;transform-origin:left bottom}100%{-webkit-transform:rotateY(-180deg);transform:rotateY(-180deg);-webkit-transform-origin:left bottom;transform-origin:left bottom}}
+
+
+
+#img1{
+    object-fit: cover;
+    height: 100px;
+    width:20%;
+    
+}
+
+
+
+
+
+ nav{
+    position: relative;
+     width:60% ;
+     height: 100px;
+    line-height: 100px;
+    float: left;
+    
+
+}
+#listhome li {
+    
+    display: inline-block;
+    
+    padding: 0 30px;
+    margin: 0px 10px;
+    font-size: 20px;
+    border-right: 3px  double red;
+    
+
+}
+
+#listhome a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    padding:20px 2px;
+    text-align: center;
+}
+
+#listhome li:hover , #listhome a:hover{
+    background-color: brown;
+    color: white;
+
+} 
+aside{
+    position: relative;
+    width: 40%;
+    height:500px ;
+    background-color:rgb(207, 16, 16) ;
+    float: left;
+    clip-path: polygon(62% 0, 90% 0, 100% 10%, 100% 89%, 90% 100%, 0 100%, 0 96%, 0 0);
+}
+
+
+
+article{
+  
+    height: 500px;
+    background-color: red;
+    
+}
+
+#img9{
+    width:30%;
+    height:250px;
+    float:right;
+
+}
+#img2{
+    width:30%; 
+    height: 250px;
+    float:left;
+
+}
+#vid1{
+    width: 80%;
+    height:400px;
+    float:left;
+    margin: 20px 20px ;
+    
+}
+#pis1{
+    
+    width:50% ; 
+    height: 100px;
+    float: right;
+    margin: 50px;
+}
+aside h1{
+    width:40%;
+    height: 50px;
+    margin:20px;
+    padding-left: 100px;
+    
+}
+
+
+
+
+
+
+footer{
+    
+    width:100% ;
+    height:200px ; 
+    clear: both;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+
+aside{
+    animation-name:color;
+    animation-duration:10s ;
+    animation-delay:1s ;
+    animation-iteration-count:infinite;
+
+}
+@keyframes color{
+
+    0%{ background-color:rgb(207, 124, 16) ;}
+    20%{background-color:rgb(78, 184, 16) ;}
+    40%{background-color:rgb(13, 146, 113) ;
+    }
+    60%{background-color:rgb(138, 14, 14) ;}
+    80%{background-color:rgb(95, 27, 27) ;}
+    100%{background-color:rgb(71, 7, 7) ;}
+}
+#fh2{
+    width:25%;
+    height: 50px;
+    color:white ;
+    float: right;
+    border-bottom: 3px double white;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 50px;
+}
+#foot{
+    width: 30%;
+    height: 100px;
+    padding-top: 50px;
+    display: inline;
+    float: right;
+    line-height: 50px;
+    text-align: center;
+   
+}
+#foot img{
+    width:8% ;
+    height:80px;
+    margin:5px 40px;
+  
+    border-bottom: 3px solid white;
+}
+#foot img:hover{
+    width: 10% ;
+
+
+}
+
+@media all{
+
+}
+@media print{
+    
+}
+
+
+
+@media only screen and (max-width: 1379px) and (min-width:1219px){
+
+
+    header{
+        position: relative;
+       
+    }
+    nav{
+        
+        float: none;
+
+        }
+
+    #img1{
+        position:absolute;
+
+    }
+    article{
+        position: inherit;
+
+    }
+    
+
+
+    
+    #aside{
+        position: relative;
+    }
+    #vid1{
+        position: absolute;
+
+    }
+    aside h1 {
+        position: absolute;
+        width: 70%;
+        height: 0;
+        padding-left: 100px;
+        padding-top: 20px;
+        position: absolute;
+        left: auto;
+        
+
+        }
+    #article{
+        position: relative;
+    }   
+   
+    #img2 , #img9{
+        margin: 20px;
+        width: 25%;
+                }
+
+        #pis1 {
+            position: absolute;
+            width: 40%;
+            height: 30px;
+            top: 370px;
+            right: 120px;
+                        }
+
+}
+
+@media only screen and (max-width: 1218px) and (min-width:788px){
+
+
+
+header{
+width: 100%;
+height: 400px;
+}
+
+#logo img {
+    position: relative;
+    float: none;
+    width: 40%;
+    height: 100px;
+    border-radius: 40%;
+    margin-left: 60%;
+}
+
+#fan {
+    margin-right: 30%;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    
+
+    }
+
+#img1 {
+    width: 10%;
+    object-fit: cover;
+    height: 100px;
+    width: 20%;
+    margin-left: 25%;
+}
+
+
+
+nav {
+    float: none;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    left: 10%;
+    
+}
+#pis1 {
+    width: 30%;
+    height: 100px;
+    float: right;
+    margin: 100px;
+
+    }
+
+
+#fh2 {
+    width: 50%;
+    height: 50px;
+    color: white;
+    float: right;
+    border-bottom: 3px double white;
+    font-size: 25px;
+    line-height: 50px;
+    padding-top: 50px
+
+    }
+
+
+
+    #foot {
+        width: 50%;
+        height: 40px;
+        padding-top: 50px;
+        display: inline;
+        float: right;
+        line-height: 50px;
+        text-align: center;
+
+        }
+
+}
+
+
+@media only screen and (max-width: 787px) and (min-width:499px){
+
+    header{
+        width: 100%;
+        height: auto;
+        }
+        
+      
+        
+        #logo img {
+            position: relative;
+            float: none;
+            width: 40%;
+            height: 100px;
+            border-radius: 40%;
+            margin-left: 60%;
+        }
+        
+        #fan {
+            margin-right: 30%;
+            float: right;
+            text-align: center;
+            line-height: 50px;
+            
+        
+            }
+        
+        #img1 {
+            width: 10%;
+            object-fit: cover;
+            height: 100px;
+            width: 20%;
+            margin-left: 25%;
+        }
+        
+        
+        
+        nav {
+            display: block;
+            float: none;
+            position: relative;
+            width: 40%;
+            height: 550px;
+            
+        }
+        #pis1 {
+            width: 30%;
+            height: 100px;
+            float: right;
+            margin: 100px;
+        
+            }
+        
+        
+        #fh2 {
+            width: 50%;
+            height: auto;
+            color: white;
+            float: right;
+            border-bottom: 3px double white;
+            font-size: 25px;
+            line-height: 50px;
+            padding-top: 50px
+        
+            }
+
+
+            #listhome li{
+                border: 5px solid red;
+                display: block;
+               height: auto;
+                margin: 20px 40px;
+                font-size: 14px;
+            }
+            #listhome a {
+                text-decoration: none;
+                color: black;
+                text-align: center;
+                display: block;
+                color:transparent
+                padding: 1px 20px;
+                text-align: center;
+                height:auto;
+                
+
+                }
+
+
+            main{
+                height:auto;
+            } 
+            
+
+             #vid1 {
+             width: 70%;
+             height: 250px;
+             float: left;
+             margin: 20px 20px;   
+
+                 }
+
+         aside h1 {
+        width: 80%;
+        float: right;
+        font-size: 14px;
+        height: 100px;
+        margin-left: 100px
+
+        }
+
+        #img9 {
+            margin: 20px 10px;
+            width: 25%;
+            height: 250px;
+            float: right;
+
+            }
+
+            #img2 {
+                margin: 20px 10px;
+                width: 25%;
+                height: 250px;
+                float: left;
+
+                }
+
+                #pis1 {
+                    width: 30%;
+                    height: 50px;
+                    float: right;
+                    margin: auto;
+                    margin-right: 20%;
+                }
+
+               
+                
+                #fh2 {
+                    width: 55%;
+                    height: auto;
+                    color: white;
+                    float: right;
+                    border-bottom: 3px double white;
+                    font-size: 20PX;
+                    line-height: 50px;
+                    padding-top: 50px;
+
+                                 
+                        
+                    }
+
+                    footer {
+                        width: 100%;
+                        height: 400px;
+                        clear: both;
+                        margin: 2px;
+                        background-color: rgba(0, 0, 0, 0.911);
+                    }
+
+
+                    #foot a{
+                        width:40%;
+                        height: 200px;
+                        display: block;
+                    }
+
+
+                 
+
+
+
+
+}
+
+@media only screen and (max-width: 500px) and (min-width:200px){
+
+    
+    nav li{
+        display: block;
+        width:100%;
+
+
+}
+#img9 {
+    margin: 20px 10px;
+    width: 15%;
+    height: 200px;
+    float: right;
+
+    }
+
+    #img2 {
+        margin: 20px 10px;
+        width: 15%;
+        height: 200px;
+        float: left;
+
+        }
+
+        #pis1 {
+            width: 20%;
+            height: 30px;
+            float: right;
+            margin: auto;
+            margin-right: 20%;
+        }
+        #fh2 {
+            width: 30%;
+            height: auto;
+            color: white;
+            float: right;
+            border-bottom: 3px double white;
+            font-size: 15PX;
+
+            }
+
+            
+    
+
+
+}
+
+@media only screen and (orientation:portrait){
+    header{
+        background-color: rgb(78, 184, 16) ;
+    }
+}
